@@ -1,0 +1,23 @@
+<app-navigation></app-navigation>
+
+  <table class="table table-hover" id="tableWrapper">
+    <thead>
+      <tr id="col">
+        <th scope="col">Knygos pavadinimas</th>
+        <th scope="col">Autorius</th>
+        <th scope="col">Puslapių skaičius</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let book of books;">
+
+      <td>{{book.title}}</td>
+
+      <td>{{book.author}}</td>
+
+      <td>{{book.page}}</td>
+      <td><img src='assets/images/add.png' class="resize" alt="add" (click)="addBook(book)"></td>
+    </tbody>
+  </table>
+

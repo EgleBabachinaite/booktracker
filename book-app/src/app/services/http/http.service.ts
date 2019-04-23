@@ -55,8 +55,6 @@ export class HttpService {
 
   searchBooks(keyword: string): Observable<object> {
     const headers = this.generateAuthorizationHeaders();
-    // https://stackoverflow.com/questions/34475523/how-to-pass-url-arguments-query-string-to-a-http-request-on-angular
-    // return this.post('/amazon', {params: {keyword: keyword}}, headers);
     return this.post('/amazon', {keyword: keyword}, headers);
   }
   addBook(book: Book): Observable<object> {

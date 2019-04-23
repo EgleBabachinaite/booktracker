@@ -12,12 +12,10 @@ export class Utility {
 
     public static VerifyToken(token: string): any {
 
-        // The try{} statement allows you to define a block of code to be tested for errors while it is being executed.
         try {
             let decodedJson = jwt.verify(token, Utility.JWTKey);
 
             return decodedJson;
-            //The catch{} statement allows you to define a block of code to be executed, if an error occurs in the try block.
         } catch {
             return false;
         }
@@ -31,7 +29,6 @@ export class Utility {
                         console.log(errors);
                         reject(new HttpError(`Property ${errors[0].property} is invalid`, HttpStatusCode.BadRequest));
                     } else {
-                        console.log('model pasiektas');
                         resolve(model);
                     }
                 })

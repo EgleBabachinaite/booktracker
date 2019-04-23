@@ -9,7 +9,6 @@ export class AmazonRoute extends HttpRoute {
     }
 
     private searchBooks(request: Request, response: Response): void {
-        // https://www.npmjs.com/package/amazon-product-api
         let client = Amazon.AutClient();
         console.log(request.body);
         // Making request to amazon product api
@@ -17,7 +16,6 @@ export class AmazonRoute extends HttpRoute {
             keywords: request.body.keyword,
             searchIndex: "Books",
         }).then(function(results){
-            //console.log(results);
             response.send(results);
         }).catch(function(err){
             console.log(err);

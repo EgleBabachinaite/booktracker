@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48c44e25-fe90-4ca7-9da5-498c45c51448" name="Default Changelist" comment="" />
+    <list default="true" id="48c44e25-fe90-4ca7-9da5-498c45c51448" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/app.component.less" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/app.component.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/components/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/components/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/components/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/components/registration/registration.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/app/services/http/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/app/services/http/http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-app/src/models/Book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-app/src/models/Book.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/AmazonRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/AmazonRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/AmazonRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/http/AmazonRoute.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Utility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Utility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/Utility.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,107 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/Book.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/User.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Utility.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/LoginRoute.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Amazon.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -129,6 +43,9 @@
       <find>bcrypt.</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,18 +55,18 @@
         <option value="$PROJECT_DIR$/http/UserRoute.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/models/Amazon.ts" />
-        <option value="$PROJECT_DIR$/http/AmazonRoute.ts" />
         <option value="$PROJECT_DIR$/models/Book.js" />
         <option value="$PROJECT_DIR$/http/HttpError.ts" />
         <option value="$PROJECT_DIR$/http/BooksRoute.ts" />
         <option value="$PROJECT_DIR$/http/HttpServer.ts" />
         <option value="$PROJECT_DIR$/models/Book.ts" />
-        <option value="$PROJECT_DIR$/models/Utility.ts" />
         <option value="$PROJECT_DIR$/index.ts" />
         <option value="$PROJECT_DIR$/Database.ts" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/models/User.ts" />
         <option value="$PROJECT_DIR$/http/LoginRoute.ts" />
+        <option value="$PROJECT_DIR$/http/AmazonRoute.ts" />
+        <option value="$PROJECT_DIR$/models/Utility.ts" />
       </list>
     </option>
   </component>
@@ -159,6 +76,7 @@
     <option name="width" value="1355" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,6 +94,11 @@
               <item name="book-rest-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,11 +184,12 @@
       <workItem from="1555435357722" duration="1200000" />
       <workItem from="1555496482689" duration="772000" />
       <workItem from="1555528706611" duration="11000" />
+      <workItem from="1556054836514" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240277000" />
+    <option name="totallyTimeSpent" value="240561000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -279,10 +203,10 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="npm" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19762062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -333,26 +257,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/express-serve-static-core/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/HttpServer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/amazon-affiliate-api/lib/utils.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/amazon-affiliate-api/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/amazon-product-api/package.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/HttpRoute.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -372,10 +282,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/http.d.ts" />
+    <entry file="file://$PROJECT_DIR$/Database.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/LoginRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" />
     <entry file="file://$PROJECT_DIR$/http/AmazonRoute.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="406">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -384,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http/BooksRoute.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
+        <state relative-caret-position="406">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -408,21 +329,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http/HttpServer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/UserRoute.ts">
+    <entry file="file://$PROJECT_DIR$/http/LoginRoute.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="99">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -439,17 +357,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/LoginRoute.js">
+    <entry file="file://$PROJECT_DIR$/http/UserRoute.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="-36">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" />
+    <entry file="file://$PROJECT_DIR$/models/Book.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/User.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="-541">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -459,51 +389,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Utility.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="392">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/LoginRoute.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Amazon.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Database.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="-342">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
@@ -514,17 +410,45 @@
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Book.ts">
+    <entry file="file://$PROJECT_DIR$/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Amazon.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

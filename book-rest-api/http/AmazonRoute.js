@@ -24,7 +24,6 @@ var AmazonRoute = /** @class */ (function (_super) {
         express.post("" + this.path, this.searchBooks.bind(this));
     };
     AmazonRoute.prototype.searchBooks = function (request, response) {
-        // https://www.npmjs.com/package/amazon-product-api
         var client = Amazon_1.Amazon.AutClient();
         console.log(request.body);
         // Making request to amazon product api
@@ -32,7 +31,6 @@ var AmazonRoute = /** @class */ (function (_super) {
             keywords: request.body.keyword,
             searchIndex: "Books",
         }).then(function (results) {
-            //console.log(results);
             response.send(results);
         }).catch(function (err) {
             console.log(err);

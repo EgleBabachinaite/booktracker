@@ -17,6 +17,3 @@ export class Book {
     this.page = page;
   }
 }
-
-// source: https://stackoverflow.com/questions/35763730/difference-between-constructor-and-ngoninit
-// source: https://blog.angularindepth.com/the-essential-difference-between-constructor-and-ngoninit-in-angular-c9930c209a42

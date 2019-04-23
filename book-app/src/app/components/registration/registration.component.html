@@ -1,11 +1,9 @@
 <form>
   <h3>Registracija</h3>
 
-  <!--source: https://getbootstrap.com/docs/4.3/components/forms/-->
     <span class="ui-float-label">
       <input type="text" id="float-input" size="30" pInputText class="form-control" [formControl]="email">
       <label for="float-input">El. paštas</label>
-      <!--source: https://getbootstrap.com/docs/4.3/components/alerts/-->
       <div *ngIf="showEmailError" class="alert alert-danger" role="alert">
         Neteisingas el. paštas
       </div>

@@ -11,11 +11,9 @@ var Utility = /** @class */ (function () {
         return re.test(String(email).toLowerCase());
     };
     Utility.VerifyToken = function (token) {
-        // The try{} statement allows you to define a block of code to be tested for errors while it is being executed.
         try {
             var decodedJson = jwt.verify(token, Utility.JWTKey);
             return decodedJson;
-            //The catch{} statement allows you to define a block of code to be executed, if an error occurs in the try block.
         }
         catch (_a) {
             return false;
@@ -30,7 +28,6 @@ var Utility = /** @class */ (function () {
                     reject(new HttpError_1.HttpError("Property " + errors[0].property + " is invalid", HttpError_1.HttpStatusCode.BadRequest));
                 }
                 else {
-                    console.log('model pasiektas');
                     resolve(model);
                 }
             })
